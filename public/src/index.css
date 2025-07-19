@@ -1,0 +1,17 @@
+/* Importa as diretivas base, components e utilities do Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Você pode adicionar seus próprios estilos globais aqui, se necessário */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Usando a fonte Inter conforme instruído */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
